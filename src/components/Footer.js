@@ -1,0 +1,82 @@
+import React from 'react';
+import './../css/animate.css';
+import './../css/App.css';
+import './../css/bootstrap.min.css';
+import './../css/color-switcher.css';
+import './../css/index.css';
+import './../css/line-icons.css';
+import './../css/magnific-popup.css';
+import './../css/main.css';
+import './../css/menu_sideslide.css';
+import './../css/nivo-lightbox.css';
+import './../css/owl.carousel.css';
+import './../css/owl.theme.css';
+import './../css/responsive.css';
+
+export default function Footer() {
+    return (
+        <div>
+            <footer>
+  {/* Footer Area Start */}
+  <section className="footer-Content" id="footers">
+    <div className="container">
+      <div className="row">
+        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+          <h3>Pelifa</h3>
+          <div className="textwidget">
+            <p>Nền tảng khác</p>
+          </div>
+          <ul className="footer-social">
+            <li><a className="facebook" href="https://www.facebook.com/pelifaofficial"><i className="lni-facebook-filled" /></a></li>
+            <li><a className="instagram" href="https://www.facebook.com/pelifaofficial"><i className="lni-instagram-filled" /></a></li>
+            
+          </ul> 
+        </div>
+       
+        <div className="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-mb-12">
+          <div className="widget">
+            <h3 className="block-title">Liên hệ với chúng mình</h3>
+            <ul className="contact-footer">
+              <li>
+                <strong>Phone :</strong> <span>086 575 8033</span>
+              </li>
+              <li>
+                <strong>E-mail :</strong> <span><a href="#top">pelifaofficial@gmail.com</a></span>
+              </li>
+            </ul> 
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </section>
+  {/* Footer area End */}
+  {/* Copyright Start  */}
+  <div id="copyright">
+    <div className="container">
+      <div className="row">
+        <div className="col-md-12">
+          <div className="site-info float-left">
+            <p>Crafted by <a href="https://www.facebook.com/pelifaofficial" rel="nofollow">Pelifa</a></p>
+          </div>              
+          <div className="float-right">  
+            <ul className="nav nav-inline">
+              <li className="nav-item">
+                <a className="nav-link active" href="https://www.facebook.com/pelifaofficial">About Pelifa</a>
+              </li>
+             
+              <li className="nav-item">
+                <a className="nav-link" href="https://www.facebook.com/pelifaofficial">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  {/* Copyright End */}
+</footer>
+
+        </div>
+    )
+}
